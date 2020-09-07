@@ -4,6 +4,7 @@
       <v-main>
         <v-container fluid>
           <router-view></router-view>
+          <Footer />
         </v-container>
       </v-main>
     </v-app>
@@ -11,9 +12,12 @@
 </template>
 
 <script>
+import Footer from '@/components/shared/Footer'
 export default {
   name: "App",
-
+  components: {
+    Footer
+  },
   data: () => ({
     //
   }),

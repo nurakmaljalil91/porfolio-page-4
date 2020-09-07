@@ -1,11 +1,16 @@
 <template>
   <div class="home">
-    <h1>This is Home</h1>
+    
+    <div class="text-center">
+      <v-btn rounded color="primary" dark to="{name: 'About'}">About</v-btn>
+      <v-btn rounded color="primary" dark to="{name: 'Works'}">Works</v-btn>
+      <v-btn rounded color="primary" dark to="{name: 'Contact'}">Contact</v-btn>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home"
-}
+  name: "Home",
+};
 </script>
