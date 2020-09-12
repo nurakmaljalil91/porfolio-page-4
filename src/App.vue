@@ -3,7 +3,9 @@
     <v-app>
       <v-main>
         <v-container fluid>
-          <router-view></router-view>
+          <TransitionPage>
+            <router-view></router-view>
+          </TransitionPage>
           <Footer />
         </v-container>
       </v-main>
@@ -12,11 +14,13 @@
 </template>
 
 <script>
-import Footer from '@/components/shared/Footer'
+import Footer from "@/components/shared/Footer";
+import TransitionPage from "@/components/shared/TransitionPage";
 export default {
   name: "App",
   components: {
-    Footer
+    Footer,
+    TransitionPage,
   },
   data: () => ({
     //

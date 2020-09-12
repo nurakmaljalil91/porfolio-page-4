@@ -17,6 +17,7 @@ const routes = [{
         // which is lazy-loaded when the route is visited.
         component: () =>
             import ( /* webpackChunkName: "about" */ "../views/About.vue"),
+        meta: { transitionName: 'slide' }
     },
     {
         path: "/contact",
@@ -26,6 +27,7 @@ const routes = [{
         // which is lazy-loaded when the route is visited.
         component: () =>
             import ( /* webpackChunkName: "about" */ "../views/Contact.vue"),
+        meta: { transitionName: 'slide' }
     },
     {
         path: '/works',
@@ -34,7 +36,8 @@ const routes = [{
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
-            import ( /* webpackChunkName: "about" */ '../views/Works.vue')
+            import ( /* webpackChunkName: "about" */ '../views/Works.vue'),
+        meta: { transitionName: 'slide' }
     }
 ];
 
