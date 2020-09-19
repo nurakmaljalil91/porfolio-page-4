@@ -10,7 +10,7 @@ const routes = [{
         component: Home,
     },
     {
-        path: "/about",
+        path: "/About",
         name: "About",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -20,7 +20,7 @@ const routes = [{
         meta: { transitionName: 'slide' }
     },
     {
-        path: "/contact",
+        path: "/Contact",
         name: "Contact",
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
@@ -30,7 +30,7 @@ const routes = [{
         meta: { transitionName: 'slide' }
     },
     {
-        path: '/works',
+        path: '/Works',
         name: 'Works',
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
