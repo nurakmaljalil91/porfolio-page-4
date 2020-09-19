@@ -2,8 +2,8 @@
   <div id="App">
     <v-app>
       <v-main>
+        <Nav />
         <v-container fluid>
-          <Nav />
           <TransitionPage>
             <router-view></router-view>
           </TransitionPage>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Nav from "@/components/shared/Nav"
+import Nav from "@/components/shared/Nav";
 import Footer from "@/components/shared/Footer";
 import TransitionPage from "@/components/shared/TransitionPage";
 export default {

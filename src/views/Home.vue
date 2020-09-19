@@ -8,22 +8,26 @@
             aspect-ratio="1.7"
             contain
           ></v-img>
+          <div class="text-center">
+            <h1 class="teal--text">Full Stack Engineer</h1>
+            <p class="teal--text">Game Developer, Programmer, Web Developer & Entrepreneur</p>
+          </div>
         </v-col>
         <v-col lg="6" cols="12">
-          <div class="d-flex align-center ">
+          <div class="text-center">
             <v-row>
-              <v-col  cols="12">
-                <v-btn rounded color="primary" dark to="/About"
+              <v-col cols="12">
+                <v-btn width="108" outlined rounded color="teal" dark to="/About"
                   >About</v-btn
                 ></v-col
               >
               <v-col cols="12"
-                ><v-btn rounded color="primary" dark to="/Works"
+                ><v-btn width="108" outlined rounded color="teal" dark to="/Works"
                   >Works</v-btn
                 ></v-col
               >
               <v-col cols="12">
-                <v-btn rounded color="primary" dark to="/Contact"
+                <v-btn width="108" outlined rounded color="teal" dark to="/Contact"
                   >Contact</v-btn
                 ></v-col
               >
