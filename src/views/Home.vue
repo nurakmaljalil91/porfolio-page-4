@@ -2,32 +2,44 @@
   <div class="home">
     <v-container fluid>
       <v-row>
-        <v-col lg="6" cols="12">
-          <v-img
-            :src="require('@/assets/profile-cartoon-style.png')"
-            aspect-ratio="1.7"
-            contain
-          ></v-img>
+        <v-col cols="12">
           <div class="text-center">
-            <h1 class="teal--text">Full Stack Engineer</h1>
-            <p class="teal--text">Game Developer, Programmer, Web Developer & Entrepreneur</p>
+            <ProfileCard />
           </div>
         </v-col>
-        <v-col lg="6" cols="12">
+        <v-col cols="12">
           <div class="text-center">
-            <v-row>
-              <v-col cols="12">
-                <v-btn width="108" outlined rounded color="teal" dark to="/About"
+            <v-row align="center" justify="center">
+              <v-col lg="3" cols="12">
+                <v-btn
+                  width="108"
+                  outlined
+                  rounded
+                  color="teal"
+                  dark
+                  to="/About"
                   >About</v-btn
                 ></v-col
               >
-              <v-col cols="12"
-                ><v-btn width="108" outlined rounded color="teal" dark to="/Works"
+              <v-col lg="3" cols="12"
+                ><v-btn
+                  width="108"
+                  outlined
+                  rounded
+                  color="teal"
+                  dark
+                  to="/Works"
                   >Works</v-btn
                 ></v-col
               >
-              <v-col cols="12">
-                <v-btn width="108" outlined rounded color="teal" dark to="/Contact"
+              <v-col lg="3" cols="12">
+                <v-btn
+                  width="108"
+                  outlined
+                  rounded
+                  color="teal"
+                  dark
+                  to="/Contact"
                   >Contact</v-btn
                 ></v-col
               >
@@ -40,7 +52,11 @@
 </template>
 
 <script>
+import ProfileCard from "@/components/ProfileCard";
 export default {
   name: "Home",
+  components: {
+    ProfileCard,
+  },
 };
 </script>
