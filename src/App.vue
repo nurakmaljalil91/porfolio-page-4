@@ -3,6 +3,7 @@
     <v-app>
       <v-main>
         <Nav />
+         <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
         <v-container fluid>
           <TransitionPage>
             <router-view></router-view>

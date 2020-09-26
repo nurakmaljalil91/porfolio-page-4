@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <v-container fluid>
-      <v-slide-y-transition>
+      <v-expand-transition>
         <h1 v-show="created">Nur Akmal Jalil</h1>
-      </v-slide-y-transition>
+      </v-expand-transition>
     </v-container>
   </div>
 </template>
@@ -19,7 +19,8 @@ export default {
   },
   created() {
     setTimeout(() => {
-        this.created = true
-      }, 1000);
-  }};
+      this.created = true;
+    }, 1000);
+  },
+};
 </script>
