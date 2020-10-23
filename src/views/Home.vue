@@ -24,9 +24,6 @@
                 Est et nobis iisque percipit, an vim zril disputando
                 voluptatibus, vix an salutandi sententiae.
               </p>
-              <v-btn :color="item.color" class="mx-0" outlined>
-                Button
-              </v-btn>
             </v-card-text>
           </v-card>
         </v-timeline-item>
@@ -36,9 +33,12 @@
 </template>
 
 <script>
-//import ProfileCard from "@/components/ProfileCard";
+// import ProfileCard from "@/components/ProfileCard";
 export default {
   name: "Home",
+  // components: {
+  //   ProfileCard,
+  // },
   data() {
     return {
       created: false,

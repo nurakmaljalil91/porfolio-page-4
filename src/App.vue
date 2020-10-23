@@ -4,11 +4,15 @@
       <v-main>
         <Nav />
         <v-parallax
-          src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
         >
           <v-card>
-            <v-card-title>NUR AKMAL JALIL</v-card-title
-            ><v-card-subtitle>FULL STACK ENGINEER</v-card-subtitle></v-card
+            <v-row
+              ><v-col cols="6"
+                ><v-card-title>NUR AKMAL JALIL</v-card-title
+                ><v-card-subtitle>FULL STACK ENGINEER</v-card-subtitle></v-col
+              ></v-row
+            ></v-card
           ></v-parallax
         >
         <v-container fluid>
