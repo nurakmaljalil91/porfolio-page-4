@@ -2,7 +2,7 @@
   <div class="home">
     <v-container fluid>
       <v-expand-transition>
-        <h1 v-show="created">Nur Akmal Jalil</h1>
+        <h1 v-show="created">NUR AKMAL JALIL</h1>
       </v-expand-transition>
 
       <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">

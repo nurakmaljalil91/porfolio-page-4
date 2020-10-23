@@ -3,7 +3,14 @@
     <v-app>
       <v-main>
         <Nav />
-         <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
+        <v-parallax
+          src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+        >
+          <v-card>
+            <v-card-title>NUR AKMAL JALIL</v-card-title
+            ><v-card-subtitle>FULL STACK ENGINEER</v-card-subtitle></v-card
+          ></v-parallax
+        >
         <v-container fluid>
           <TransitionPage>
             <router-view></router-view>
