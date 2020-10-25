@@ -1,8 +1,11 @@
 <template>
   <div class="home">
     <v-row v-resize="onResize" align="center" justify="center">
-      <v-subheader>Window Size</v-subheader>
-      {{ windowSize }}
+      <v-sheet :width="windowSize.x" :height="windowSize.y" color="teal">
+        <v-row align="center" justify="center"> 
+          {{windowSize}}
+        </v-row>
+      </v-sheet>
     </v-row>
   </div>
 </template>
@@ -20,25 +23,6 @@ export default {
         x: 0,
         y: 0,
       },
-      created: false,
-      items: [
-        {
-          color: "red lighten-2",
-          icon: "mdi-star",
-        },
-        {
-          color: "purple darken-1",
-          icon: "mdi-book-variant",
-        },
-        {
-          color: "green lighten-1",
-          icon: "mdi-airballoon",
-        },
-        {
-          color: "indigo",
-          icon: "mdi-buffer",
-        },
-      ],
     };
   },
   created() {
