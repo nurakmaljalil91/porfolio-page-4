@@ -1,11 +1,14 @@
 <template>
   <div>
-    <v-toolbar flat>
+    <v-toolbar flat class="teal accent-3">
+      <a href="">
+        <v-icon medium class="mx-2"> mdi-email </v-icon
+        ><strong>nurakmaljalil91@gmail.com</strong>
+      </a>
       <v-spacer></v-spacer>
-      <v-toolbar-title>
-        <v-btn outlined rounded color="teal" to="/">Nur Akmal Jalil</v-btn>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
+      <a href="" class="mx-6"><strong>Work</strong> </a>
+      <a href="" class="mx-6"> <strong>About</strong> </a>
+      <a href="" class="mx-6"> <strong>Contact</strong> </a>
     </v-toolbar>
   </div>
 </template>

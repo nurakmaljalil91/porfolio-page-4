@@ -1,9 +1,14 @@
 <template>
   <div class="home">
     <v-row v-resize="onResize" align="center" justify="center">
-      <v-sheet :width="windowSize.x" :height="windowSize.y" color="teal">
-        <v-row align="center" justify="center"> 
-          {{windowSize}}
+      <v-sheet
+        :width="windowSize.x"
+        :height="windowSize.y"
+        class="teal accent-3 d-flex align-content-center flex-wrap"
+      >
+        <v-row align="center" justify="center">
+          <!-- <p class="yellow--text">{{ windowSize }}</p> -->
+          <h1>Hi, I'm Akmal  </h1><span style='font-size:50px;'>&#9995;</span>
         </v-row>
       </v-sheet>
     </v-row>
