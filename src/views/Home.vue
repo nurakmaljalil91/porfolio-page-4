@@ -4,12 +4,48 @@
       <v-sheet
         :width="windowSize.x"
         :height="windowSize.y"
-        class="teal accent-3 d-flex align-content-center flex-wrap"
+        class="teal accent-3 d-flex flex-column"
       >
-        <v-row align="center" justify="center">
-          <!-- <p class="yellow--text">{{ windowSize }}</p> -->
-          <h1>Hi, I'm Akmal  </h1><span style='font-size:50px;'>&#9995;</span>
-        </v-row>
+        <v-card flat class="teal accent-3">
+          <v-row align="center" justify="center">
+            <v-img
+              :src="require('@/assets/profile-cartoon-style.png')"
+              width="200"
+              height="200"
+              contain
+            ></v-img>
+          </v-row>
+        </v-card>
+
+        <v-card flat class="teal accent-3">
+          <v-row v-if="created" align="center" justify="center">
+            <!-- <p class="yellow--text">{{ windowSize }}</p> -->
+            <h2>Hi, I'm Akmal</h2>
+            <span style="font-size:50px;">&#9995;</span>
+          </v-row>
+        </v-card>
+
+        <v-card flat class="teal accent-3">
+          <v-row align="center" justify="center">
+            <h1><strong>I'm building things </strong></h1>
+          </v-row>
+        </v-card>
+
+        <v-card flat class="teal accent-3">
+          <v-row align="center" justify="center">
+            <p>
+              <strong
+                >Full Stack Software Engineer and Game Developer from Malaysia
+              </strong>
+            </p>
+          </v-row>
+        </v-card>
+
+        <v-card flat class="teal accent-3">
+          <v-row align="center" justify="center">
+            <v-btn to="/About">Hire Me!</v-btn>
+          </v-row>
+        </v-card>
       </v-sheet>
     </v-row>
   </div>
@@ -28,6 +64,7 @@ export default {
         x: 0,
         y: 0,
       },
+      created: false,
     };
   },
   created() {
