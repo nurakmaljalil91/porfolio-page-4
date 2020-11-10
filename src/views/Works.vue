@@ -1,18 +1,14 @@
 <template>
   <div>
-    <v-row v-resize="onResize" align="center" justify="center">
-      <v-sheet
-        :width="windowSize.x"
-        :height="windowSize.y"
-        class="teal darken-4 d-flex flex-column"
-      >
+    <v-row align="center" justify="center">
+      <v-sheet class="teal darken-4 d-flex flex-column">
         <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <h1 class="white--text">This is works page</h1>
+            <h1 class="white--text">Check Out My Works</h1>
           </v-row>
         </v-card>
 
-        <v-card flat class="teal darken-4 my-4">
+        <v-card flat class="teal darken-4 mb-4">
           <div>
             <hr />
           </div>
