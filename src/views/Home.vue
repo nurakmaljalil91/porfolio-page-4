@@ -1,12 +1,8 @@
 <template>
   <div class="home">
-    <v-row v-resize="onResize" align="center" justify="center">
-      <v-sheet
-        :width="windowSize.x"
-        :height="windowSize.y"
-        class="teal accent-3 d-flex flex-column"
-      >
-        <v-card flat class="teal accent-3">
+    <v-row align="center" justify="center">
+      <v-sheet class="teal darken-4 d-flex flex-column">
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
             <v-img
               :src="require('@/assets/profile-cartoon-style.png')"
@@ -17,23 +13,25 @@
           </v-row>
         </v-card>
 
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4">
           <v-row v-if="created" align="center" justify="center">
             <!-- <p class="yellow--text">{{ windowSize }}</p> -->
-            <h2>Hi, I'm Akmal</h2>
+            <h2 class="white--text">Hi, I'm Akmal</h2>
             <span style="font-size:50px;">&#9995;</span>
           </v-row>
         </v-card>
 
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <h1><strong>I'm building things </strong></h1>
+            <h1 class="white--text">
+              <strong># I'm building things #</strong>
+            </h1>
           </v-row>
         </v-card>
 
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <p>
+            <p class="white--text">
               <strong
                 >Full Stack Software Engineer and Game Developer from Malaysia
               </strong>
@@ -41,7 +39,7 @@
           </v-row>
         </v-card>
 
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
             <v-btn to="/About">Hire Me!</v-btn>
           </v-row>

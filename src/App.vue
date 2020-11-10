@@ -1,7 +1,7 @@
 <template>
   <div id="App">
     <v-app>
-      <v-main>
+      <v-main class="teal darken-4">
         <Nav />
         <TransitionPage>
           <router-view></router-view>

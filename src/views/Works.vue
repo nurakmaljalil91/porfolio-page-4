@@ -4,17 +4,23 @@
       <v-sheet
         :width="windowSize.x"
         :height="windowSize.y"
-        class="teal accent-3 d-flex flex-column"
+        class="teal darken-4 d-flex flex-column"
       >
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <h1>This is works page</h1>
+            <h1 class="white--text">This is works page</h1>
           </v-row>
         </v-card>
 
-        <v-card flat class="teal accent-3">
+        <v-card flat class="teal darken-4 my-4">
+          <div>
+            <hr />
+          </div>
+        </v-card>
+
+        <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <v-btn rounded color="primary" to="/">Home</v-btn>
+            <v-btn rounded to="/">Home</v-btn>
           </v-row>
         </v-card>
       </v-sheet>

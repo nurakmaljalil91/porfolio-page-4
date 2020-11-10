@@ -1,13 +1,19 @@
 <template>
   <div>
-    <v-toolbar flat class="teal accent-3">
-      <a href="/" class="black--text">
+    <v-toolbar dark flat class="teal darken-4">
+      <v-btn text to="/" class="teal darken-4 white--text">
         <strong>NUR AKMAL</strong>
-      </a>
+      </v-btn>
       <v-spacer></v-spacer>
-      <a href="/About" class="mx-6 black--text"> <strong>About</strong> </a>
-      <a href="/Works" class="mx-6 black--text"><strong>Works</strong> </a>
-      <a href="/Contact" class="mx-6 black--text"> <strong>Contact</strong> </a>
+      <v-btn text to="/About" class="mx-6 teal darken-4 white--text"
+        ><strong> About</strong></v-btn
+      >
+      <v-btn text to="/Works" class="mx-6 teal darken-4 white--text"
+        ><strong>Works</strong>
+      </v-btn>
+      <v-btn text to="/Contact" class="mx-6 teal darken-4 white--text">
+        <strong>Contact</strong>
+      </v-btn>
     </v-toolbar>
   </div>
 </template>
@@ -15,6 +21,5 @@
 <style scoped>
 a {
   text-decoration: none;
- 
 }
 </style>
