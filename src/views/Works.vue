@@ -8,41 +8,51 @@
           </v-row>
         </v-card>
 
-        <v-card flat class="teal darken-4 mb-4">
+        <v-card flat class="teal darken-4 ">
           <div>
             <hr />
           </div>
         </v-card>
-
-        <v-card flat class="teal darken-4">
-          <v-row align="center" justify="center">
-            <v-btn rounded to="/">Home</v-btn>
-          </v-row>
-        </v-card>
       </v-sheet>
     </v-row>
 
-    <v-row align="center" justify="center" class="teal lighten-3 my-2">
-      <v-sheet class="teal lighten-3 d-flex flex-column" height="300">
-        <v-card flat class="teal lighten-3">
-          <v-row align="center" justify="center">
-            
-          </v-row>
-        </v-card>
+    <v-container fluid >
+      <v-row>
+        <v-col
+          v-for="n in 9"
+          :key="n"
+          class="d-flex child-flex"
+          xl="3"
+          lg="4"
+          md="6"
+          sm="12"
+          xs="12"
+          cols="12"
+        >
+          <v-img
+            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+            :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+            aspect-ratio="1"
+            class="grey lighten-2"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+        </v-col>
+      </v-row>
+    </v-container>
 
-        <v-card flat class="teal lighten-3 mb-4">
-          <div>
-            <hr />
-          </div>
-        </v-card>
-
-        <v-card flat class="teal lighten-3">
-          <v-row align="center" justify="center">
-            
-          </v-row>
-        </v-card>
-      </v-sheet>
-    </v-row>
+    <v-card flat class="teal darken-4 mb-16">
+      <v-row align="center" justify="center">
+        <v-btn rounded to="/">Home</v-btn>
+      </v-row>
+    </v-card>
   </div>
 </template>
 

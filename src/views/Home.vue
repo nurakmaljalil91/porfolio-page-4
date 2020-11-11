@@ -23,7 +23,7 @@
 
         <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
-            <h1 class="white--text">
+            <h1 class="white--text text-sm-body-1">
               <strong># I'm building things #</strong>
             </h1>
           </v-row>
@@ -31,9 +31,14 @@
 
         <v-card flat class="teal darken-4">
           <v-row align="center" justify="center">
+            <p class="white--text mr-2">
+              <strong
+                >Full Stack Software Engineer and  
+              </strong>
+            </p>
             <p class="white--text">
               <strong
-                >Full Stack Software Engineer and Game Developer from Malaysia
+                > Game Developer from Malaysia
               </strong>
             </p>
           </v-row>
