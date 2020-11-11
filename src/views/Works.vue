@@ -21,6 +21,28 @@
         </v-card>
       </v-sheet>
     </v-row>
+
+    <v-row align="center" justify="center" class="teal lighten-3 my-2">
+      <v-sheet class="teal lighten-3 d-flex flex-column" height="300">
+        <v-card flat class="teal lighten-3">
+          <v-row align="center" justify="center">
+            
+          </v-row>
+        </v-card>
+
+        <v-card flat class="teal lighten-3 mb-4">
+          <div>
+            <hr />
+          </div>
+        </v-card>
+
+        <v-card flat class="teal lighten-3">
+          <v-row align="center" justify="center">
+            
+          </v-row>
+        </v-card>
+      </v-sheet>
+    </v-row>
   </div>
 </template>
 

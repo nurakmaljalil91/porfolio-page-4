@@ -2,7 +2,7 @@
   <div>
     <v-toolbar dark flat class="teal darken-4">
       <v-btn text to="/" class="teal darken-4 white--text">
-        <strong>NUR AKMAL</strong>
+        <strong>NUR AKMAL JALIL</strong>
       </v-btn>
       <v-spacer></v-spacer>
       <v-btn text to="/About" class="mx-6 teal darken-4 white--text"
