@@ -10,16 +10,24 @@
     >
       <v-list>
         <v-list-item>
-          <router-link to="/" class="white--text"><strong>NUR AKMAL JALIL</strong> </router-link>
+          <router-link to="/" class="white--text"
+            ><strong>NUR AKMAL JALIL</strong>
+          </router-link>
         </v-list-item>
         <v-list-item>
-          <router-link to="/About" class="white--text">About</router-link>
+          <router-link to="/About" class="white--text"
+            ><strong>About</strong>
+          </router-link>
         </v-list-item>
         <v-list-item>
-          <router-link to="/Works" class="white--text">Works</router-link>
+          <router-link to="/Works" class="white--text"
+            ><strong> Works</strong></router-link
+          >
         </v-list-item>
         <v-list-item>
-          <router-link to="/Contact" class="white--text"><strong>Contact</strong> </router-link>
+          <router-link to="/Contact" class="white--text"
+            ><strong>Contact</strong>
+          </router-link>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
