@@ -17,7 +17,8 @@
           <v-card flat class="teal darken-4">
             <v-row v-if="created" align="center" justify="center">
               <!-- <p class="yellow--text">{{ windowSize }}</p> -->
-              <h2 class="white--text">Hi, I'm Akmal</h2>
+              <h2 class="yellow--text">Hi,</h2>
+              <h2 class="white--text">I'm Akmal</h2>
               <span style="font-size: 50px">&#9995;</span>
             </v-row>
           </v-card>
@@ -35,7 +36,7 @@
               <p class="white--text mr-2">
                 <strong>Full Stack Software Engineer and </strong>
               </p>
-              <p class="white--text">
+              <p class="yellow--text">
                 <strong> Game Developer from Malaysia </strong>
               </p>
             </v-row>

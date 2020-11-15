@@ -19,6 +19,12 @@
             <v-btn rounded to="/">Home</v-btn>
           </v-row>
         </v-card>
+
+           <v-card flat class="teal darken-4">
+          <v-row align="center" justify="center">
+            <h1 class="white--text">Website under construction</h1>
+          </v-row>
+        </v-card>
       </v-sheet>
     </v-row>
   </div>
