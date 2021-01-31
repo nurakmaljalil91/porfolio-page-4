@@ -17,7 +17,7 @@ import Nav from "@/components/shared/Nav";
 import Footer from "@/components/shared/Footer";
 import TransitionPage from "@/components/shared/TransitionPage";
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Nav,
     Footer,

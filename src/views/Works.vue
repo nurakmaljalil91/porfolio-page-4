@@ -65,20 +65,20 @@ export default {
         y: 0,
       },
       created: false,
-    };
+    }
   },
   created() {
     setTimeout(() => {
       this.created = true;
-    }, 1000);
+    }, 1000)
   },
   mounted() {
-    this.onResize();
+    this.onResize()
   },
   methods: {
     onResize() {
-      this.windowSize = { x: window.innerWidth, y: window.innerHeight };
-    },
-  },
-};
+      this.windowSize = { x: window.innerWidth, y: window.innerHeight }
+    }
+  }
+}
 </script>
