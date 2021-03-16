@@ -1,15 +1,16 @@
 <template>
   <div class="home">
+
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-sheet class="teal darken-4 d-flex flex-column">
           <v-card flat class="teal darken-4">
             <v-row align="center" justify="center">
               <v-img
-                :src="require('@/assets/profile-cartoon-style.png')"
-                width="200"
-                height="200"
-                contain
+                  :src="require('@/assets/profile-cartoon-style.png')"
+                  width="200"
+                  height="200"
+                  contain
               ></v-img>
             </v-row>
           </v-card>
@@ -96,7 +97,7 @@ export default {
   },
   methods: {
     onResize() {
-      this.windowSize = { x: window.innerWidth, y: window.innerHeight };
+      this.windowSize = {x: window.innerWidth, y: window.innerHeight};
     },
   },
 };

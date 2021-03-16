@@ -10,36 +10,36 @@
 
         <v-card flat class="teal darken-4 ">
           <div>
-            <hr />
+            <hr/>
           </div>
         </v-card>
       </v-sheet>
     </v-row>
 
-    <v-container fluid >
+    <v-container fluid>
       <v-row>
         <v-col
-          v-for="n in 9"
-          :key="n"
-          class="d-flex child-flex"
-          xl="3"
-          lg="4"
-          md="6"
-          sm="12"
-          xs="12"
-          cols="12"
+            v-for="n in 9"
+            :key="n"
+            class="d-flex child-flex"
+            xl="3"
+            lg="4"
+            md="6"
+            sm="12"
+            xs="12"
+            cols="12"
         >
           <v-img
-            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-            :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-            aspect-ratio="1"
-            class="grey lighten-2"
+              :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
+              :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+              aspect-ratio="1"
+              class="grey lighten-2"
           >
             <template v-slot:placeholder>
               <v-row class="fill-height ma-0" align="center" justify="center">
                 <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
+                    indeterminate
+                    color="grey lighten-5"
                 ></v-progress-circular>
               </v-row>
             </template>
@@ -77,7 +77,7 @@ export default {
   },
   methods: {
     onResize() {
-      this.windowSize = { x: window.innerWidth, y: window.innerHeight }
+      this.windowSize = {x: window.innerWidth, y: window.innerHeight}
     }
   }
 }
